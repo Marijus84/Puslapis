@@ -1,0 +1,36 @@
+@import url(css/normalize.css);
+
+.container{
+  width: 960px;
+  margin:0 auto;
+ background: red;*/
+}
+
+body {
+background: url("img/fond.png");
+}
+
+
+.menu {
+  float: right;
+
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu a{color: black;
+
+
+}
+
+.logo {
+  float: left;
+}
+
+.header {
+  background: lightgreen;
+}
