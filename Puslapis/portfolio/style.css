@@ -1,36 +1,147 @@
-@import url(css/normalize.css);
+@import url("css/normalize.css");
 
-.container{
-  width: 960px;
-  margin:0 auto;
- background: red;*/
-}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
 
 body {
 background: url("img/fond.png");
+font-family: 'Oswald', sans-serif;
 }
 
+*{box-sizing: border-box;}
 
-.menu {
-  float: right;
-
+.container{
+max-width: 1000px;
+margin:0 auto;
 }
 
-.header:after {
+header {
+  background: #B8CB21;
+}
+
+header:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.menu a{color: black;
+.aa{max-width: 30%;}
 
+nav :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav li {
+    float: right;
+    line-height: 100px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: black;
+  /*  margin: 20px; */
+    text-align: center;
+    padding: 2em;
+    padding-top: 2.5em;
 
 }
 
 .logo {
   float: left;
+  padding-top: 30px;
+
 }
 
-.header {
-  background: lightgreen;
+main{
+  background: white;
+  width: 100%;
 }
+
+main:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h2.first::before{
+  content:"\2713 ";
+}
+
+
+
+.left{
+  float: left;
+  /*border-right: 1px solid gray;*/
+  width: 40%;
+}
+
+.right{
+  float: left;
+  border-left: 1px solid gray;
+  width: 60%;
+}
+
+.left img{
+  width: 100%;
+}
+
+.right img{
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+}
+
+article {
+    background-color: white;
+    /*border: 1px solid gray;*/
+    padding: 1em;
+    overflow: hidden;
+}
+
+.null{
+  margin-top: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+color:#B8CB21 ;
+
+}
+
+h3 {color:#B8CB21;}
+
+lst {list-style-type: disc;}
+
+button {float: right;
+    background-color: #B8CB21;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;}
+
+    footer {text-align: center;
+      padding-top: 20px;
+      font-size: 0.7em;
+    }
+
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    .contacts {}
+
+      .blue {color: blue}
+
+        .black {color: black}
